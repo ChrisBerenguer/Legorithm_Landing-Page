@@ -129,8 +129,8 @@ header {
 
   .esquerda_btn {
     
-    gap: 0.5rem;
-    max-width: 10%;
+ 
+  
     justify-content: flex-start;
     margin-top: 2rem;
   }
@@ -143,6 +143,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
   
   flex-shrink: 0;
   width: 10rem;
@@ -173,6 +174,11 @@ background-color: #FFF;
   transition: all 0.6s;
 }
 
+.esquerda_btn_agendar_botao a{
+  text-decoration: none;
+  color:#202322;
+}
+
 
 .esquerda_btn_saibamais_botao {
 
@@ -183,6 +189,7 @@ padding: 14px 30px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+text-decoration: none;
 
 flex-shrink: 0;
 width: 10rem;
@@ -200,6 +207,12 @@ line-height: 24px; /* 150% */
 border-radius: 10px;
 border: 1px solid #87C159;
 background: rgba(163, 150, 150, 0.00);
+}
+
+.esquerda_btn_saibamais_botao a {
+  text-decoration: none;
+  color: #D2D2D2;
+  
 }
 
 .esquerda_btn_saibamais_botao:hover, .esquerda_btn_saibamais_botao:focus {
@@ -307,7 +320,7 @@ main {
   justify-content: flex-start;
   display: flex;
   position: relative;
-  padding-left: 6rem;
+  padding-left: 4rem;
   padding-top: 4rem;
   max-width: 70%;
   
@@ -324,11 +337,11 @@ main {
 .startups_fail_esquerda_descricao{
   max-width: 70%;
   padding-top: 3rem;
-  padding-left: 6rem;
+  padding-left: 4rem;
 }
 
 .startups_fail p{
-  padding-left: 6rem;
+  padding-left: 4rem;
   padding-top: 2rem;
   max-width: 70%;
 }
@@ -343,11 +356,46 @@ main {
 }
 
 .startups_fail_esquerda_btn_download{
-  padding-left: 6rem;
+  padding-left: 4rem;
   padding-top: 2rem;
+  
 }
 
+ .startups_fail_esquerda_btn{
+  display: flex;
+  width: 207px;
+  height: 67px;
+  padding: 14px 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  
+  flex-shrink: 0;
+  width: 10rem;
 
+
+  color: #D2D2D2;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+
+
+  width: 10rem;
+
+  border-radius: 10px;
+
+  background:  rgb(80,46,122);
+ }
+
+
+ .startups_fail_esquerda_btn:hover,  .startups_fail_esquerda_btn:focus {
+  color: #000;
+  background: #94EA65;
+
+  transition: all 0.6s;
+ }
 
 /* FALA do CEO */
 
@@ -435,7 +483,7 @@ letter-spacing: 0.5;
   padding-top: 2rem;
 
 
- 
+
   
 }
 .product_discovery_esquerda_titulo{
@@ -467,6 +515,45 @@ letter-spacing: 0.5;
 
 }
 
+.product_discovery_esquerda_btn {
+  margin-left: 6rem;
+  margin-top: 2rem;
+  display: flex;
+  width: 207px;
+  height: 67px;
+  padding: 14px 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  
+  flex-shrink: 0;
+  width: 10rem;
+
+
+  color: #FFF;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+
+
+  width: 10rem;
+
+  border-radius: 10px;
+
+  background:  rgb(80,46,122);
+ }
+
+ .product_discovery_esquerda_btn:hover, .product_discovery_esquerda_btn:focus {
+  background: #94EA65;
+  color: #0b0c12;
+  transition: all 0.6s;
+
+ }
+
+
+
 
 .product_discovery_direita {
   padding-right: 6rem;
@@ -485,6 +572,8 @@ letter-spacing: 0.5;
 
 .produtc_delivery {
   display: flex;
+  background-color: #0b0c12;
+  height: 650px;
 
 }
 
@@ -493,6 +582,7 @@ letter-spacing: 0.5;
   flex-direction: row;
   justify-content: center;
   padding-top: 2rem;
+  
 }
 
 
@@ -536,12 +626,51 @@ letter-spacing: 0.5;
 
 }
 
+.product_delivery_esquerda_btn{
+  margin-right: 6rem;
+  margin-top: 2rem;
+  display: flex;
+  width: 207px;
+  height: 67px;
+  padding: 14px 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  
+  flex-shrink: 0;
+  width: 10rem;
+
+
+  color: #0b0c12;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+
+
+  width: 10rem;
+
+  border-radius: 10px;
+
+  background:  #94EA65;
+
+}
+
+.product_delivery_esquerda_btn:hover, .product_delivery_esquerda_btn:focus{
+  background: rgb(80,46,122);
+  color: #FFF;
+  transition: all 0.6s;
+
+}
+
 .produtc_delivery_direita{
   padding-right: 12rem;
-  padding-top: 3rem;
+  padding-top: 0.6rem;
   justify-content: center;
   display: flex;
   position: relative;
+  height:fit-content;
 
 }
 
@@ -604,6 +733,48 @@ font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 144.444% */
 }
+
+.product_analytics_esquerda_btn{
+  margin-right: 6rem;
+  margin-top: 2rem;
+  display: flex;
+  width: 207px;
+  height: 67px;
+  padding: 14px 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  
+  flex-shrink: 0;
+  width: 10rem;
+
+
+  color: #000;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+
+
+  width: 10rem;
+
+  border-radius: 10px;
+
+  background: #94EA65;
+
+
+}
+
+.product_analytics_esquerda_btn:hover, .product_analytics_esquerda_btn:focus{
+  background: rgb(80,46,122);
+  color: #FFF;
+  transition: all 0.6s;
+
+}
+
+
+
 
 .product_analytics_direita_imagem{
   padding-top: 4rem;
@@ -677,6 +848,38 @@ font-weight: 400;
 line-height: 26px; /* 162.5% */
 }
 
+
+
+.logos_chris {
+  position: relative;
+  padding-top: 0.4rem;
+  display: flex;
+
+  align-items: center;
+
+}
+
+.logos_chris img {
+  width: 35px;
+}
+
+
+.btn-linkedin-chris:hover, .btn-linkedin-chris:focus {
+
+  opacity: 13%;
+  transition: all 0.6s;
+}
+
+.btn-scholar-chris:hover, .btn-scholar-chris:focus {
+ opacity: 13%;
+  
+
+  transition: all 0.6s;
+}
+
+
+
+
 .design_asset1{
   padding-top: 4rem;
   display: flex;
@@ -695,6 +898,7 @@ line-height: 26px; /* 162.5% */
   justify-content: center;
   align-items: center;
   display: flex;
+  gap: 3rem;
 
 }
 .agende_conversa_texto{
@@ -713,16 +917,19 @@ line-height: 26px; /* 162.5% */
   letter-spacing: -1.2px;
  
   }
+
+
 .agende_conversa_btn {
   display: flex;
   justify-content: center;
-  padding-top: 3rem;
+  align-content: center;
   padding-top: 6rem;
+  text-decoration: none;
 
-}
-.agende_conversa_btn button{
+
   border-radius: 10px;
   background: #94EA65;
+  color: #0b0c12;
   display: flex;
   width: 423px;
   height: 91px;
@@ -735,7 +942,7 @@ line-height: 26px; /* 162.5% */
 
 }
 
-.agende_conversa_btn button:hover, .agende_conversa_btn button:focus {
+.agende_conversa_btn:hover, .agende_conversa_btn:focus {
   background:  #FFF;
 transition: all 0.6s;
 color: #0b0c12;
